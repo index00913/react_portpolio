@@ -5,7 +5,7 @@ console.log(styles);
 
 export default function Header() {
 	return (
-		<header className={(styles.header, 'on')}>
+		<header className={clsx(styles.header, 'on')}>
 			<h1>LOGO</h1>
 
 			<ul>
