@@ -2,9 +2,9 @@ import styles from './Header.module.scss';
 import clsx from 'clsx';
 import { Link, NavLink } from 'react-router-dom';
 
-export default function Header() {
+export default function Header({ isMain }) {
 	return (
-		<header className={clsx(styles.header, 'on')}>
+		<header className={clsx(styles.header, isMain ? styles.main : styles.sub)}>
 			<h1>
 				<Link to='/'>LOGO</Link>
 			</h1>
@@ -27,7 +27,7 @@ export default function Header() {
 				</li>
 				<li>
 					<NavLink to='/members' activeClassName={styles.active}>
-						Members
+						Members새
 					</NavLink>
 				</li>
 				<li>
