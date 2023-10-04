@@ -3,32 +3,32 @@
     {
       "name": "David",
       "postion": "President",
-      "pic": "pic.1.jpg"
+      "pic": "member1.jpg"
     },
     {
       "name": "Julia",
       "postion": "slave",
-      "pic": "pic.2.jpg"
+      "pic": "member2.jpg"
     },
     {
       "name": "Emily",
       "postion": "slave",
-      "pic": "pic.3.jpg"
+      "pic": "member3.jpg"
     },
     {
       "name": "Bob",
       "postion": "slave",
-      "pic": "pic.4.jpg"
+      "pic": "member4.jpg"
     },
     {
       "name": "james",
       "postion": "slave ",
-      "pic": "pic.5.jpg"
+      "pic": "member5.jpg"
     },
     {
       "name": "alex",
       "postion": "slave",
-      "pic": "pic.6.jpg"
+      "pic": "member6.jpg"
     }
   ]
 }

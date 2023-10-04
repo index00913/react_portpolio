@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react';
 
 export default function Department() {
 	console.log('re-render');
+	const path = process.env.PUBLIC_URL;
+
+	console.log('re-render');
 	const [Department, setDepartment] = useState([]);
 
 	useEffect(() => {
@@ -20,7 +23,11 @@ export default function Department() {
 			{Department.map((member, idx) => {
 				return (
 					<article key={idx}>
+						<div className='pic'>
+							<img src={`${path}/img/${member.pic}`} alt={member.name} />
+						</div>
 						<h2>{member.name}</h2>
+						<p>{member.position}</p>
 					</article>
 				);
 			})}
