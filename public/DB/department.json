@@ -1,0 +1,34 @@
+{
+  "members": [
+    {
+      "name": "David",
+      "postion": "President",
+      "pic": "pic.1.jpg"
+    },
+    {
+      "name": "Julia",
+      "postion": "slave",
+      "pic": "pic.2.jpg"
+    },
+    {
+      "name": "Emily",
+      "postion": "slave",
+      "pic": "pic.3.jpg"
+    },
+    {
+      "name": "Bob",
+      "postion": "slave",
+      "pic": "pic.4.jpg"
+    },
+    {
+      "name": "james",
+      "postion": "slave ",
+      "pic": "pic.5.jpg"
+    },
+    {
+      "name": "alex",
+      "postion": "slave",
+      "pic": "pic.6.jpg"
+    }
+  ]
+}
