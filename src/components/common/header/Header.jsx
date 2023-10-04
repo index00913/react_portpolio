@@ -27,7 +27,7 @@ export default function Header({ isMain }) {
 				</li>
 				<li>
 					<NavLink to='/members' activeClassName={styles.active}>
-						Members새
+						Members
 					</NavLink>
 				</li>
 				<li>
